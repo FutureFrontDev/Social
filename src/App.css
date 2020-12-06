@@ -14,16 +14,22 @@
 }
 a{
     text-decoration: none;
+    color:#fff;
 }
 a:hover{
     text-decoration: underline;
+    color: #000;
+    transition: all .5s ease;
 }
 .header{
+    position: relative;
     grid-area: h;
     background-color: #5fd3f9;
 }
 .header img{
-    width: 100px;
+    position: absolute;
+    width: 80px;
+    height: auto;
     
 }
 .nav{
@@ -35,6 +41,8 @@ a:hover{
 }
 .content{
     grid-area: c;
-    
-    
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }

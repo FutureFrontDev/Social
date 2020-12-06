@@ -1,8 +1,8 @@
 import React from "react";
-
-const Content = () => {
+import s from "./Profile.module.css";
+const Profile = () => {
   return (
-    <div className="content">
+    <div className={s.Profile}>
       <div>
         <img src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg" />
       </div>
@@ -11,7 +11,7 @@ const Content = () => {
         My post
         <div>New posts</div>
         <div>
-          <div>post1</div>
+          <div className={s.item}>post1</div>
           <div>post2</div>
           <div>post3</div>
         </div>
@@ -20,4 +20,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Profile;

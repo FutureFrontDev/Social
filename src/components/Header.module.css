@@ -2,12 +2,11 @@
 .header{
   position: relative;
   grid-area: h;
-  background-color: #5fd3f9;
+  background-color: #39a010;
+  overflow: hidden;
 }
 .header img{
-  position: absolute;
-  top:-5px;
-  left: 0;
+ 
   width: 80px;
   height: auto;
   

@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     margin: 0 auto;
     display: grid;
     grid-template-rows: 60px 1fr;
@@ -8,13 +8,17 @@
     grid-template-areas: 
     "h h"
     "n p";
-    
+
     width: 1170px;
     padding: 15px 0;
 }
 
 
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+}
+
+.app-wrapper-content {
+    grid-area: p;
 }

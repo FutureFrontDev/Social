@@ -1,6 +1,8 @@
-.Profile{
-  grid-area: p;
-}
+
 .item {
   color:red;
+
+}
+.Post{
+  margin-bottom: 20px;
 }

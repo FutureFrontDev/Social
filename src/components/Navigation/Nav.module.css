@@ -14,6 +14,7 @@
   padding-top: 10px;
   padding-left: 10px;
   grid-area: n;
+  height: 100vh;
   
   background-color: #5fd3f9;
 }
